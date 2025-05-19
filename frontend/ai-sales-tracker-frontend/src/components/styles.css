@@ -1,0 +1,233 @@
+.bg-container{
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.login-heading{
+    text-align: center;
+    font-size: 30px;
+}
+.login-container{
+    border: 2px solid #dfd9d9;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px #ffffff;
+}
+.login-input-container{
+    padding: 10px 0px;
+}
+.login-input-container input{
+    height: 25px;
+    width: 90%;
+    margin: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 0px;
+    padding-left: 10px;
+}
+.login-label{
+    padding: 20px 0px;
+}
+.login-button-container{
+    display: flex;
+    justify-content: space-around;
+}
+.login-button-container button{
+    background-color: #7891fd;
+    border: 0px;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+}
+.login-error-msg{
+    color: #d80b0b;
+    font-weight: 600;
+}
+.register{
+    padding: 0px;
+}
+.register input{
+    width: 100%;
+}
+.register-btn{
+    min-width: 115%;
+}
+.register-container{
+    border: 2px solid #dfd9d9;
+    padding: 0px 80px 10px 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px #ffffff;
+}
+.nav-bg-container{
+    background-color: #1a1919;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    margin: 0px;
+}
+.c-list{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 60%;
+}
+.logo{
+    color: #ffffff;
+}
+.logo span{
+    color: #f0b207;
+    font-size: 50px;
+    padding: -10px;
+}
+.logout-btn{
+    background-color: #f58686;
+    padding: 20px;
+    border: 0px;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.home-bg-container{
+    background-color: #000000;
+    min-height: 100vh;
+    text-align: center;
+    color: #ffffff;
+}
+.home-main-heading{
+    color: #e8b8f6;
+    text-align: center;
+    font-size: 60px;
+}
+.home-bg-container p{
+    font-size: 24px;
+    text-align: start;
+    padding: 0px 120px;
+}
+.go-to-dashboard-button{
+    background-color: #f1f783;
+    height: 45px;
+    width: 150px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.add-customer-container{
+    background-color: #000000;
+    min-height: 100vh;
+    color: #ffffff;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container form div{
+    padding-bottom: 8px;
+}
+.card-container form div input{
+    height: 25px;
+    width: 100%;
+    border-radius: 4px;
+    border: 0px;
+    padding-left: 10px;
+    outline: none;
+}
+.drop-down{
+    height: 30px;
+    width: 250px;
+    border: 0px;
+    border-radius: 5px;
+}
+.add-customer-btn{
+    text-align: center;
+}
+.add-customer-btn button{
+    height: 30px;
+    width: 250px;
+    background-color: #fdd805;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.customers-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    min-width: 60%;
+  }
+  
+  .customers-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fefefe; 
+    color: #000; 
+    border: 2px solid #000;
+  }
+  
+  .customers-table th,
+  .customers-table td {
+    padding: 12px;
+    border: 2px solid #000;
+    text-align: left;
+  }
+  
+  .customers-table th {
+    background-color: #eaeaea;
+  }
+  
+  .customers-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+
+  .dashboard-container {
+  padding: 2rem;
+}
+
+.dashboard-title {
+  margin-bottom: 1rem;
+}
+
+.charts-wrapper {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding:0px 50px;
+}
+
+.chart-box {
+  flex: 1;
+  min-width: 300px;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.bg-dashboard{
+    background-color: #000;
+    min-height: 100vh;
+    padding: 0px;
+}
