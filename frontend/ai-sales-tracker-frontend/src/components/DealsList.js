@@ -25,7 +25,7 @@ class DealsList extends Component {
       <div className="add-customer-container">
         <Navbar />
         <div className="card-container">
-        <h2>Customers List </h2>
+        <h2>Deals List </h2>
         {
           deals.length < 1 ? (
             <div><h1>nothing here</h1></div>
